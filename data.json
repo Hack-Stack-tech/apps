@@ -1,0 +1,64 @@
+{
+  "apps": [
+    {
+      "appName": "App Store",
+      "version": "1.0.0",
+      "icon": "icon/app-store.png",
+      "startupCmd": "python main.py",
+      "setupCmd": "",
+      "isSetup": false,
+      "description": "A brief description of what this app does.",
+      "author": "Developer Name",
+      "homepage": "https://example.com",
+      "githubRepo": "https://github.com/developer/app-store",
+      "categories": ["Utility", "Productivity"],
+      "lastUpdated": "2024-12-06",
+      "isVisible": true
+    },
+    {
+      "appName": "Text Editor",
+      "version": "2.5.3",
+      "icon": "icon/text-editor-icon.png",
+      "startupCmd": "python text_editor.py",
+      "setupCmd": "pip install -r requirements.txt",
+      "isSetup": false,
+      "description": "A simple text editor with syntax highlighting.",
+      "author": "Jane Doe",
+      "homepage": "https://texteditor.com",
+      "githubRepo": "https://github.com/janedoe/text-editor",
+      "categories": ["Utility", "Editor"],
+      "lastUpdated": "2024-11-20",
+      "isVisible": true
+    },
+    {
+      "appName": "File Manager",
+      "version": "1.2.1",
+      "icon": "icon/file-manager-icon.png",
+      "startupCmd": "python file_manager.py",
+      "setupCmd": "",
+      "isSetup": true,
+      "description": "A file manager with drag and drop support.",
+      "author": "John Smith",
+      "homepage": "https://filemanager.com",
+      "githubRepo": "https://github.com/johnsmith/file-manager",
+      "categories": ["Utility", "Productivity"],
+      "lastUpdated": "2024-10-15",
+      "isVisible": true
+    },
+    {
+      "appName": "Weather App",
+      "version": "1.0.0",
+      "icon": "icon/weather-app-icon.png",
+      "startupCmd": "python weather.py",
+      "setupCmd": "pip install requests",
+      "isSetup": false,
+      "description": "An app that provides weather updates.",
+      "author": "Alice Johnson",
+      "homepage": "https://weatherapp.com",
+      "githubRepo": "https://github.com/alicejohnson/weather-app",
+      "categories": ["Utility", "Weather"],
+      "lastUpdated": "2024-09-10",
+      "isVisible": true
+    }
+  ]
+}
